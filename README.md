@@ -1,6 +1,8 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Given an existing app, I was challenged to implement new features, and fix bugs.
+
+Testing was done with Rspec and capybara.
 
 ## Setup
 
@@ -12,6 +14,22 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+
+#### Homepage
+
+![homepage](https://github.com/robinwebber/jungle-rails/blob/master/docs/jungleHome.png?raw=true)
+
+#### Empty cart error
+
+![EmptyCartError](https://github.com/robinwebber/jungle-rails/blob/master/docs/jungleEmptyCart.png?raw=true)
+
+#### Product deatil page
+
+![prodDetailPage](https://github.com/robinwebber/jungle-rails/blob/master/docs/jungleProductDetails.png?raw=true)
+
+#### Admin Categories
+
+![adminCategories](https://github.com/robinwebber/jungle-rails/blob/master/docs/jungleAdminCategories.png?raw=true)
 
 ## Stripe Testing
 
